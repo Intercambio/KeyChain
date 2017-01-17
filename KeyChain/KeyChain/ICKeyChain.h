@@ -12,7 +12,8 @@ extern NSString *_Nonnull const ICKeyChainErrorDomain NS_SWIFT_NAME(KeyChainErro
 
 typedef NS_ENUM(NSInteger, ICKeyChainErrorCode) {
     ICKeyChainErrorCodeUndefined,
-    ICKeyChainErrorCodeItemNotFound
+    ICKeyChainErrorCodeItemNotFound,
+    ICKeyChainErrorCodeNoPassword
 } NS_SWIFT_NAME(KeyChainErrorCode);
 
 extern NSString *_Nonnull const ICKeyChainDidAddItemNotification NS_SWIFT_NAME(KeyChainDidAddItemNotification);
