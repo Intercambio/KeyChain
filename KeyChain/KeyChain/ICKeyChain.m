@@ -341,7 +341,10 @@ NSString *const ICKeyChainItemKey = @"ICKeyChainItemKey";
         if (_data) {
             CFRelease(_data);
         }
-
+        
+        if (password == nil && error) {
+            *error = [NSError errorWithDomain:ICKeyChainErrorDomain code:ICKeyChainErrorCodeNoPassword userInfo:nil];
+        }
         return password;
     } else {
         if (error) {
