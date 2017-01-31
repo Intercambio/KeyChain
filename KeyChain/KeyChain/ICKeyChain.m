@@ -327,12 +327,7 @@ NSString *const ICKeyChainItemKey = @"ICKeyChainItemKey";
 
     OSStatus resultCode = SecItemDelete((__bridge CFDictionaryRef)query);
 
-    if (resultCode == errSecItemNotFound) {
-        if (error) {
-            *error = [NSError errorWithDomain:ICKeyChainErrorDomain code:ICKeyChainErrorCodeItemNotFound userInfo:nil];
-        }
-        return NO;
-    } else if (resultCode == noErr) {
+    if (resultCode == noErr || resultCode == errSecItemNotFound) {
         return YES;
     } else {
         if (error) {
