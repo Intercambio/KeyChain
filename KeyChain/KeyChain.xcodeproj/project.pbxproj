@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F61292A81E4C898E00051B24 /* ICKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F61804081E2D6B6F00692A68 /* ICKeyChain.m */; };
+		F61292A91E4C898E00051B24 /* ICKeyChainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F618040A1E2D6B6F00692A68 /* ICKeyChainItem.m */; };
+		F61292AA1E4C899200051B24 /* KeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F61803D21E2D6AE400692A68 /* KeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292AB1E4C899200051B24 /* ICKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F61804071E2D6B6F00692A68 /* ICKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292AC1E4C899200051B24 /* ICKeyChainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F61804091E2D6B6F00692A68 /* ICKeyChainItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292BB1E4C8A0800051B24 /* KeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F61803D21E2D6AE400692A68 /* KeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292BC1E4C8A0800051B24 /* ICKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F61804071E2D6B6F00692A68 /* ICKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292BD1E4C8A0800051B24 /* ICKeyChainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F61804091E2D6B6F00692A68 /* ICKeyChainItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61292BE1E4C8A0C00051B24 /* ICKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = F61804081E2D6B6F00692A68 /* ICKeyChain.m */; };
+		F61292BF1E4C8A0C00051B24 /* ICKeyChainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F618040A1E2D6B6F00692A68 /* ICKeyChainItem.m */; };
 		F61803D91E2D6AE400692A68 /* KeyChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61803CF1E2D6AE400692A68 /* KeyChain.framework */; };
 		F61803DE1E2D6AE400692A68 /* KeyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F61803DD1E2D6AE400692A68 /* KeyChainTests.m */; };
 		F61803E01E2D6AE400692A68 /* KeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = F61803D21E2D6AE400692A68 /* KeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F61292911E4C891D00051B24 /* KeyChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61292B31E4C89DF00051B24 /* KeyChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61803CF1E2D6AE400692A68 /* KeyChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61803D21E2D6AE400692A68 /* KeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = KeyChain.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F61803D31E2D6AE400692A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +91,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F612928D1E4C891D00051B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61292AF1E4C89DF00051B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F61803CB1E2D6AE400692A68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +163,8 @@
 				F61803EE1E2D6B2200692A68 /* KeyChain.framework */,
 				F61803F61E2D6B2300692A68 /* macOSTests.xctest */,
 				F6C41D621E2D77E70094EF4A /* TestApp.app */,
+				F61292911E4C891D00051B24 /* KeyChain.framework */,
+				F61292B31E4C89DF00051B24 /* KeyChain.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +218,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		F612928E1E4C891D00051B24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61292AB1E4C899200051B24 /* ICKeyChain.h in Headers */,
+				F61292AA1E4C899200051B24 /* KeyChain.h in Headers */,
+				F61292AC1E4C899200051B24 /* ICKeyChainItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61292B01E4C89DF00051B24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61292BC1E4C8A0800051B24 /* ICKeyChain.h in Headers */,
+				F61292BB1E4C8A0800051B24 /* KeyChain.h in Headers */,
+				F61292BD1E4C8A0800051B24 /* ICKeyChainItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F61803CC1E2D6AE400692A68 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +261,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		F61292901E4C891D00051B24 /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61292A21E4C891E00051B24 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				F612928C1E4C891D00051B24 /* Sources */,
+				F612928D1E4C891D00051B24 /* Frameworks */,
+				F612928E1E4C891D00051B24 /* Headers */,
+				F612928F1E4C891D00051B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = KeyChain;
+			productReference = F61292911E4C891D00051B24 /* KeyChain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F61292B21E4C89DF00051B24 /* watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61292B81E4C89DF00051B24 /* Build configuration list for PBXNativeTarget "watchOS" */;
+			buildPhases = (
+				F61292AE1E4C89DF00051B24 /* Sources */,
+				F61292AF1E4C89DF00051B24 /* Frameworks */,
+				F61292B01E4C89DF00051B24 /* Headers */,
+				F61292B11E4C89DF00051B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watchOS;
+			productName = KeyChain;
+			productReference = F61292B31E4C89DF00051B24 /* KeyChain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		F61803CE1E2D6AE400692A68 /* iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F61803E31E2D6AE400692A68 /* Build configuration list for PBXNativeTarget "iOS" */;
@@ -312,9 +396,16 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Tobias Kräntzer";
 				TargetAttributes = {
+					F61292901E4C891D00051B24 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F61292B21E4C89DF00051B24 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					F61803CE1E2D6AE400692A68 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EJW69VRSSH;
 						ProvisioningStyle = Automatic;
 					};
 					F61803D71E2D6AE400692A68 = {
@@ -352,8 +443,10 @@
 			projectRoot = "";
 			targets = (
 				F61803CE1E2D6AE400692A68 /* iOS */,
-				F61803D71E2D6AE400692A68 /* iOSTests */,
+				F61292901E4C891D00051B24 /* tvOS */,
+				F61292B21E4C89DF00051B24 /* watchOS */,
 				F61803ED1E2D6B2200692A68 /* macOS */,
+				F61803D71E2D6AE400692A68 /* iOSTests */,
 				F61803F51E2D6B2300692A68 /* macOSTests */,
 				F6C41D611E2D77E70094EF4A /* TestApp */,
 			);
@@ -361,6 +454,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F612928F1E4C891D00051B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61292B11E4C89DF00051B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F61803CD1E2D6AE400692A68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,6 +509,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F612928C1E4C891D00051B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61292A91E4C898E00051B24 /* ICKeyChainItem.m in Sources */,
+				F61292A81E4C898E00051B24 /* ICKeyChain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61292AE1E4C89DF00051B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61292BF1E4C8A0C00051B24 /* ICKeyChainItem.m in Sources */,
+				F61292BE1E4C8A0C00051B24 /* ICKeyChain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F61803CA1E2D6AE400692A68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -486,6 +611,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F61292A31E4C891E00051B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyChain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.intercambio.KeyChain;
+				PRODUCT_NAME = KeyChain;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		F61292A41E4C891E00051B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyChain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.intercambio.KeyChain;
+				PRODUCT_NAME = KeyChain;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		F61292B91E4C89DF00051B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyChain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.intercambio.KeyChain;
+				PRODUCT_NAME = KeyChain;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F61292BA1E4C89DF00051B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KeyChain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = im.intercambio.KeyChain;
+				PRODUCT_NAME = KeyChain;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 		F61803E11E2D6AE400692A68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -591,7 +804,7 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EJW69VRSSH;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -610,7 +823,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EJW69VRSSH;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -742,6 +955,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F61292A21E4C891E00051B24 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61292A31E4C891E00051B24 /* Debug */,
+				F61292A41E4C891E00051B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F61292B81E4C89DF00051B24 /* Build configuration list for PBXNativeTarget "watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61292B91E4C89DF00051B24 /* Debug */,
+				F61292BA1E4C89DF00051B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F61803C91E2D6AE400692A68 /* Build configuration list for PBXProject "KeyChain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
